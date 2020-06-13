@@ -137,11 +137,11 @@ textarea {
   height: 0.7em;
 }
 
-.note.btn:hover {
-  background-color: var(--primary-color);
+.note .btn:hover {
+  background: var(--primary-color);
 }
 
-.note.btn:hover .deleteIcon {
+.note .btn:hover .deleteIcon {
   color: #fff;
 }
 
