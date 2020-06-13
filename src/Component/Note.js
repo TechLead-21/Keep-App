@@ -5,10 +5,12 @@ const Note = () => {
   return (
     <>
       <div className="note">
-        <h1>Title NOte</h1>
+        <h1>Title Note</h1>
         <br />
         <p>This is content</p>
-        <DeleteIcon className="deleteIcon" />
+        <button className="btn">
+          <DeleteIcon className="deleteIcon" />
+        </button>
       </div>
     </>
   );

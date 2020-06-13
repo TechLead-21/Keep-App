@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./Images/animat-lightbulb.gif";
+import logo from "../Images/logo.gif"
 
 const Header = () => {
   return (
